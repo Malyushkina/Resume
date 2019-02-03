@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="style.css" rel='stylesheet' type='text/css'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <style>
+        @font-face {
+            font-family: "Myriad Pro";
+            src: url("fonts/Myriad-Pro_31655.woff") format('woff');
+
+        }
+
+        @font-face {
+            font-family: "Myriad Pro - Light Semi Ext";
+            src: url("fonts/Myriad-Pro-Light-SemiExtended_31641.woff") format('woff');
+
+        }
+
+        @font-face {
+            font-family: "Myriad Pro semibold";
+            src: url("fonts/Myriad-Pro-Semibold_31650.woff") format('woff');
+
+        }
+
+        @media only screen and (max-width: 370px) {
+            body {
+                display: block;
+            }
+
+            html {
+                font-size: 5px;
+            }
+        }
+        @media only screen and (min-width: 371px) {
+            body {
+                display: block;
+                           }
+
+            html {
+                font-size: 6px;
+            }
+            
+        }
+        @media only screen and (min-width: 640px) {
+            html {
+                font-size: 0.65vw;
+            }
+            body {
+                display: grid;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="left-column">
+        <header class="header">
+            <div class="header__logo"></div>
+            <h1 class="header__name">NAME HERE</h1>
+            <p class="header__surname">SURNAME</p>
+            <p class="header__profession">GRAPHIC DESIGNER</p>
+        </header>
+
+        <section class="part part__profile">
+            <div class="box">
+                <div class="box__circle-icon">
+                    <div class="box__circle-icon_profile">
+                    </div>
+                </div>
+                <h2 class="box__title">PROFILE</h2>
+                <div class="box__line box__line_line-profile"></div>
+            </div>
+            <p class="content part__profile_content"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu <strong>pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. </strong></p>
+        </section>
+        <section class="part part__contact">
+            <div class="box">
+                <div class="box__circle-icon box__circle-icon_icon-contact"></div>
+
+                <h2 class="box__title">CONTACT</h2>
+                <div class="box__line box__line_line-contact"></div>
+            </div>
+            <div class=" content part__contact-content">
+                <div class="part__contact-content_left-column">
+                    <h3 class="part__contact-content_adress">ADDRESS</h3>
+                    <h3 class="part__contact-content_adress">E-MAIL</h3>
+                    <h3 class="part__contact-content_adress">PHONE</h3>
+                    <h3 class="part__contact-content_adress">WEBSITE</h3>
+                </div>
+                <div class="part_contact-content_right-column">
+                    <p>Main Street, City.</p>
+                    <p>contact@domain.com</p>
+                    <p>555-555-555</p>
+                    <p>www.yourweb.com</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="part part__skills">
+            <div class="box">
+                <div class="box__circle-icon">
+                    <div class="box__circle-icon_icon-skills">
+                    </div>
+                </div>
+                <h2 class="box__title">SKILLS</h2>
+                <div class="box__line box__line_line-skills">
+                </div>
+            </div>
+            <div class="part__skills_content">
+                <div class="part__skills_content_name">CREATIVE</div>
+                <div class="part__skills_content_points points-creative">
+
+                </div>
+                <div class="part__skills_content_name">TEAMWORK</div>
+                <div class="part__skills_content_points points-teamwork"></div>
+                <div class="part__skills_content_name">INNOVATE</div>
+                <div class="part__skills_content_points points-innovate"></div>
+                <div class="part__skills_content_name">COMMUNICATION</div>
+                <div class="part__skills_content_points points-communication"></div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="right-column">
+        <section class="part part__education">
+            <div class="box">
+                <div class="box__circle-icon">
+                    <div class="box__circle-icon_icon-education"></div>
+                </div>
+                <h2 class="box__title">EDUCATION</h2>
+                <div class="box__line box__line_line-education"></div>
+            </div>
+            <ul class="part__ul">
+                <li class="part__li">
+                    <div class="part__education_li_content"><span class="part__span">MASTER DEGREE</span> <span class="part__date_span"> // Feb 2011 - Jun 2014<br>
+                            UNIVERSITY NAME </span>
+                        <p class="part__education_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                    </div>
+                </li>
+
+                <li class="part__li">
+                    <div class="part__education_li_content">
+                        <span class="part__span">MASTER DEGREE</span> <span class="part__date_span">// Feb 2011 - Jun 2014<br> UNIVERSITY NAME</span>
+                        <p class="part__education_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                    </div>
+                </li>
+                <li class="part__li ">
+                    <div class="part__education_li_content"><span class="part__span">MASTER DEGREE</span><span class="part__date_span">// Feb 2011 - Jun 2014 <br>
+                            UNIVERSITY NAME</span>
+                        <p class="part__education_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                    </div>
+                </li>
+
+                <li class=" part__li">
+                    <div class="part__education_li_content"><span class="part__span">MASTER DEGREE</span><span class="part__date_span">// Feb 2011 - Jun 2014<br>
+                            UNIVERSITY NAME</span>
+
+                        <p class="part__education_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+        <section class=" part part__expirience">
+
+            <div class="box">
+                <div class="box__circle-icon ">
+                    <div class="box__circle-icon_icon-expirience"></div>
+                </div>
+                <h2 class="box__title">EXPERIENCE</h2>
+                <div class="box__line box__line_line-education"></div>
+            </div>
+            <ul class="part__ul">
+                <li class="part__li">
+                    <div class="part__expirience_li_content">
+                        <span class="part__span part__expirience_span">COMPANY NAME </span>
+                        <span class="part__date_span">// Feb 2011 - Jun 2014 <br>
+                            YOUR JOB HERE</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                    </div>
+                </li>
+                <li class=" part__li ">
+                    <div class="part__expirience_li_content">
+                        <span class="part__span part__expirience_span">COMPANY NAME</span><span class="part__date_span">// Feb 2011 - Jun 2014 <br>
+
+                            YOUR JOB HERE</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                    </div>
+                </li>
+
+                <li class="part__li ">
+                    <div class="part__expirience_li_content">
+                        <span class="part__span part__expirience_span"> COMPANY NAME</span>
+                        <span class="part__date_span">// Feb 2011 - Jun 2014 <br>
+                            YOUR JOB HERE</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+        <section class="part part__software">
+            <div class="box">
+                <div class="box__circle-icon ">
+                    <div class="box__circle-icon_icon-software"></div>
+                </div>
+                <h2 class="box__title">SOFTWARE</h2>
+                <div class="box__line box__line_line-education"></div>
+            </div>
+            <div class="part__software_content">
+                <div class="part__software_left-column">
+                    <span class="part__software_left-column_span">PHOTOSHOP</span>
+                    <div class="part__software_line-software"></div>
+                    <span class="part__software_left-column_span">ILLUSTRATOR</span>
+                    <div class="part__software_line-software"></div>
+                    <span class="part__software_left-column_span">INDESIGN</span>
+                    <div class="part__software_line-software"></div>
+
+                </div>
+                <div class="part__software_right-column">
+                    <span class="part__software_right-column_span">DREAMWEAVER</span>
+                    <div class="part__software_line-software"></div>
+                    <span class="part__software_right-column_span">AFTER EFFECTS</span>
+                    <div class="part__software_line-software"></div>
+                    <span class="part__software_right-column_span">HTML&CSS3</span>
+                    <div class="part__software_line-software"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
